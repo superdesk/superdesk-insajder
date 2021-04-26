@@ -72,3 +72,7 @@ LANGUAGES = [
     {'language': 'zh-tw', 'label': 'Traditional Chinese (TW)', 'source': True, 'destination': True},
     {'language': 'nl', 'label': 'Dutch', 'source': True, 'destination': True}
 ]
+
+INSTALLED_APPS = [
+    'apps.languages',
+]
