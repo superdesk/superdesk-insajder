@@ -87,7 +87,7 @@ PUBLISH_ASSOCIATED_ITEMS = True
 SCHEMA = {
     'picture': {
         'slugline': {'required': False},
-        'headline': {'required': False},
+        'headline': {'required': True},
         'description_text': {'required': True},
         'byline': {'required': False},
         'copyrightnotice': {'required': False},
@@ -96,7 +96,7 @@ SCHEMA = {
     },
     'video': {
         'slugline': {'required': False},
-        'headline': {'required': False},
+        'headline': {'required': True},
         'description_text': {'required': True},
         'byline': {'required': True},
         'copyrightnotice': {'required': False},
@@ -137,7 +137,7 @@ VALIDATOR_MEDIA_METADATA = {
         "required": False,
     },
     "headline": {
-        "required": False,
+        "required": True,
     },
     "description_text": {
         "required": True,
