@@ -57,6 +57,7 @@ SECRET_KEY = env('SECRET_KEY', '')
 DEFAULT_LANGUAGE = 'en'
 
 LANGUAGES = [
+    {'language': 'ar', 'label': 'Arabic', 'source': True, 'destination': True},
     {'language': 'en', 'label': 'English', 'source': True, 'destination': True},
     {'language': 'fr', 'label': 'French', 'source': True, 'destination': True},
     {'language': 'de', 'label': 'German', 'source': True, 'destination': True},
