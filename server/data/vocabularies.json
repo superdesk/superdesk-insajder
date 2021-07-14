@@ -4,7 +4,7 @@
         "display_name": "Language",
         "type": "unmanageable",
         "selection_type": "multi selection",
-        "init_version": 1,
+        "init_version": 2,
         "items": [{
                 "is_active": true,
                 "name": "English",
@@ -77,7 +77,7 @@
             },
             {
                 "is_active": true,
-                "name": "Arabic",
+                "name": "العربية",
                 "qcode": "ar"
             }
         ]
