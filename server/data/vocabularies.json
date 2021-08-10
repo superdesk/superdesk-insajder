@@ -4,7 +4,7 @@
         "display_name": "Language",
         "type": "manageable",
         "selection_type": "multi selection",
-        "init_version": 2,
+        "init_version": 3,
         "items": [{
                 "is_active": true,
                 "name": "English",
