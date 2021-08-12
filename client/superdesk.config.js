@@ -60,6 +60,11 @@ module.exports = function(grunt) {
             editor3: true,
             editorHighlights: true,
             nestedItemsInOutputStage: true,
+            customAuthoringTopbar: {
+                toDesk: true,
+                publish: true,
+                publishAndContinue: true,
+            },
         },
         workspace: {
             analytics: true
