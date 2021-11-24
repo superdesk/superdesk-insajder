@@ -58,19 +58,7 @@ DEFAULT_LANGUAGE = 'en'
 
 LANGUAGES = [
     {'language': 'en', 'label': 'English', 'source': True, 'destination': True},
-    {'language': 'fr', 'label': 'French', 'source': True, 'destination': True},
-    {'language': 'de', 'label': 'German', 'source': True, 'destination': True},
-    {'language': 'es', 'label': 'Spanish', 'source': True, 'destination': True},
-    {'language': 'it', 'label': 'Italian', 'source': True, 'destination': True},
-    {'language': 'sv', 'label': 'Swedish', 'source': True, 'destination': True},
-    {'language': 'nb', 'label': 'Norwegian', 'source': True, 'destination': True},
-    {'language': 'pl', 'label': 'Polish', 'source': True, 'destination': True},
-    {'language': 'zh-cn', 'label': 'Simplified Chinese', 'source': True, 'destination': True},
-    {'language': 'zh-hk', 'label': 'Traditional Chinese (HK)', 'source': True, 'destination': True},
-    {'language': 'ja', 'label': 'Japanese', 'source': True, 'destination': True},
-    {'language': 'ko', 'label': 'Korean', 'source': True, 'destination': True},
-    {'language': 'zh-tw', 'label': 'Traditional Chinese (TW)', 'source': True, 'destination': True},
-    {'language': 'nl', 'label': 'Dutch', 'source': True, 'destination': True}
+    {'language': 'fr', 'label': 'French', 'source': True, 'destination': True}
 ]
 
 INSTALLED_APPS = [
@@ -88,7 +76,7 @@ SCHEMA = {
     'picture': {
         'slugline': {'required': False},
         'headline': {'required': True},
-        'description_text': {'required': True},
+        'description_text': {'required': False},
         'byline': {'required': False},
         'copyrightnotice': {'required': False},
         'usageterms': {'required': False},
@@ -140,7 +128,7 @@ VALIDATOR_MEDIA_METADATA = {
         "required": True,
     },
     "description_text": {
-        "required": True,
+        "required": False,
     },
     "byline": {
         "required": False,
