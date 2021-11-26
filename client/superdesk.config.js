@@ -54,6 +54,10 @@ module.exports = function(grunt) {
             }
         },
 
+	item_profile: {
+	    change_profile: 1
+	},
+
         features: {
             preview: 1,
             swimlane: {columnsLimit: 4},
