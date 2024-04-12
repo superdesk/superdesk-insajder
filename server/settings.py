@@ -63,6 +63,7 @@ LANGUAGES = [
 
 INSTALLED_APPS = [
     'apps.languages',
+    'apps.rundowns',
 ]
 
 # special characters that are disallowed
